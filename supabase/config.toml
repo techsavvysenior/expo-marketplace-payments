@@ -1,0 +1,16 @@
+# Local development settings for the Supabase CLI (supabase start).
+# Only the parts this project relies on; everything else uses CLI defaults.
+project_id = "expo-marketplace-payments"
+
+# Adds the user_role claim to every access token.
+# In a hosted project enable it under Authentication, Hooks.
+[auth.hook.custom_access_token]
+enabled = true
+uri = "pg-functions://postgres/public/custom_access_token_hook"
+
+# Webhooks authenticate with their own signatures, not a Supabase JWT.
+[functions.stripe-webhook]
+verify_jwt = false
+
+[functions.revenuecat-webhook]
+verify_jwt = false
