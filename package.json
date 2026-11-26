@@ -58,7 +58,7 @@
     "eslint-config-expo": "~58.0.4",
     "jest": "^30.5.2",
     "jest-expo": "~58.0.15",
-    "stripe": "~23.1.0",
+    "stripe": "~23.2.0",
     "typescript": "~6.0.3"
   }
 }
