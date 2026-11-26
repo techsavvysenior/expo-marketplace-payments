@@ -22,7 +22,7 @@
   "dependencies": {
     "@stripe/stripe-react-native": "^0.81.0",
     "@supabase/supabase-js": "^2.119.2",
-    "@tanstack/react-query": "^5.108.0",
+    "@tanstack/react-query": "^5.108.3",
     "expo": "~58.0.26",
     "expo-constants": "~58.0.16",
     "expo-crypto": "~58.0.8",
